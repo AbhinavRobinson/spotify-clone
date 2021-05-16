@@ -1,8 +1,9 @@
 import React from "react";
-import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Login from "./Login";
 
 const App: React.FC = () => {
-  return <div className="App">Spotify Clone</div>;
+  return <Login />;
 };
 
 export default App;
