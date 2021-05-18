@@ -86,7 +86,10 @@ const Dashboard: React.FC<{ code: string }> = ({ code }) => {
   }, [search, accessToken]);
 
   return (
-    <Container className="d-flex flex-column py-2" style={{ height: "100vh" }}>
+    <Container
+      className="d-flex flex-column mt-2"
+      style={{ height: "100vh", width: "100vw", padding: "0" }}
+    >
       <Form.Control
         type="search"
         placeholder="Search Songs/Artists"
